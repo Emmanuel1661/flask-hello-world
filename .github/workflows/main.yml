@@ -45,6 +45,6 @@ jobs:
 
     - name: Deploy to Render
       run: |
-        curl -X POST "" \
+        curl -X POST "https://flask-hello-world-xjtu.onrender.com/" \
         -H "Content-Type: application/json" \
         -d '{}'
